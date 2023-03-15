@@ -3,15 +3,16 @@
 </h2>
 
 <p align="center"> 
-This is an example of how to set up a data model using the Software-Driven Research Data Management (sdRDM) library which is based on abstract object models. Furthermore, the sdRDM library supports the conversion of data models defined in the Markdown format.</p>
+This is an example of how to set up a data model using the software-driven Research Data Management (sdRDM) library which is based on abstract object models. Furthermore, the sdRDM library supports the conversion of data models defined in the Markdown format.</p>
  
 
 Data models defined in the Markdown format follow these conventions:
 
-- **Modules** are denoted by a heading level 1 ```#```
+- **Modules** are denoted by a heading level 1 ```#``` and is mandatory
+- **Subheading** is denoted by a heading level 2 ```##``` and is mandatory. All enumerations have to be placed below the subheading **Enumeration**
 - **Objects** are started with a heading level 3 ```###``` 
-- Each object contains **fields** in bold as a list &rarr; ```- __name__```
-- **Required fields** are denoted with an asterix &rarr; ```- __name*__```
+- Each object contains **fields** as a list &rarr; ```- name```
+- **Required fields** are denoted in bold &rarr; ```- __name__```
 - Each field has **options** as a list of name to value mapping &rarr; ```- Type: string```
 
 **Field options**
@@ -19,7 +20,7 @@ Data models defined in the Markdown format follow these conventions:
 Each field in an object can hold options relevant for mapping to another data model (e.g. a standardized format) and general information such as its type and description. In the following is a collection of all native and required fields:
 
 - **Type** - Required option to denote the data type. Please note, this can also contain other objects defined in this document.
-- **Multiple** - Whether or not this field can contain multiple values. Setting to ```True```will result in a ```List[dtype]``` annoatation in the software.
+- **Multiple** - Whether or not this field can contain multiple values. Setting to ```True``` will result in a ```List[dtype]``` annoatation in the software.
 - **Description** - Required option to describe the field. This should be a brief description that explains what the attribute is about.
 
 **Inheritance**
@@ -89,3 +90,12 @@ This is another object used to describe the parameters of given dataset. As a fi
   - Type: float
   - Description: Respective value of a parameter
   - Dataverse: pyDaRUS.Process.method_parameters.value
+
+## Enumerations
+
+### ListOfElements
+
+```python
+ELEMENT1 = "Element 1"
+ELEMENT2 = "Element 2"
+```

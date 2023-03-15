@@ -1,0 +1,462 @@
+
+SAXS BOX                                                                        
+        0         0         0         0         0         0         0         0 
+  0.000000E+00   3.090000E+02   0.000000E+00   3.425959E+03   1.542000E-01 
+  2.490000E+01   1.054673E+00   0.000000E+00   0.000000E+00   0.000000E+00 
+<?xml version="1.0" encoding="utf-8"?>
+<fileinfo version="3.80.110606">
+  <column key="X">
+    <value key="unit">n_m^-1</value>
+    <value key="quantity">SCATTERING_VECTOR</value>
+  </column>
+  <column key="Y">
+    <value key="unit">u_m^-2</value>
+    <value key="quantity">COUNTS_PER_AREA</value>
+  </column>
+  <parameter key="GeneratorVoltage">
+    <value key="name">GeneratorVoltage</value>
+    <value key="value">40</value>
+    <value key="stddev">-1</value>
+    <value key="unit">k_V</value>
+    <value key="quantity">VOLTAGE</value>
+  </parameter>
+  <parameter key="GeneratorCurrent">
+    <value key="name">GeneratorCurrent</value>
+    <value key="value">40</value>
+    <value key="stddev">-1</value>
+    <value key="unit">m_A</value>
+    <value key="quantity">ELECTRIC_CURRENT</value>
+  </parameter>
+  <parameter key="Wavelength" type="rc" index="4">
+    <value key="name">Wavelength</value>
+    <value key="value">0.1542</value>
+    <value key="stddev">-1</value>
+    <value key="unit">n_m</value>
+    <value key="quantity">LENGTH</value>
+  </parameter>
+  <parameter key="SampleDetector" type="rc" index="1">
+    <value key="name">SampleDetector</value>
+    <value key="value">309</value>
+    <value key="stddev">-1</value>
+    <value key="unit">m_m</value>
+    <value key="quantity">DISTANCE</value>
+  </parameter>
+  <parameter key="DetectorRadius">
+    <value key="name">DetectorRadius</value>
+    <value key="value">-1</value>
+    <value key="stddev">-1</value>
+    <value key="unit">m_m</value>
+    <value key="quantity">DISTANCE</value>
+  </parameter>
+  <parameter key="DetectionWidth">
+    <value key="name">DetectionWidth</value>
+    <value key="value">10</value>
+    <value key="stddev">-1</value>
+    <value key="unit">m_m</value>
+    <value key="quantity">DISTANCE</value>
+  </parameter>
+  <parameter key="Exposure">
+    <value key="name">Exposure</value>
+    <value key="value">10</value>
+    <value key="stddev">-1</value>
+    <value key="unit">s</value>
+    <value key="quantity">TIME</value>
+  </parameter>
+  <parameter key="Averages">
+    <value key="name">Averages</value>
+    <value key="value">60</value>
+    <value key="stddev">-1</value>
+    <value key="unit">none</value>
+    <value key="quantity">NONE</value>
+  </parameter>
+  <parameter key="Temperature" type="rc" index="5">
+    <value key="name">Temperature</value>
+    <value key="value">24.9</value>
+    <value key="stddev">-1</value>
+    <value key="unit">degC</value>
+    <value key="quantity">TEMPERATURE</value>
+  </parameter>
+  <parameter key="RampStartTemperature">
+    <value key="name">RampStartTemperature</value>
+    <value key="value">NaN</value>
+    <value key="stddev">-1</value>
+    <value key="unit">degC</value>
+    <value key="quantity">TEMPERATURE</value>
+  </parameter>
+  <parameter key="RampEndTemperature">
+    <value key="name">RampEndTemperature</value>
+    <value key="value">NaN</value>
+    <value key="stddev">-1</value>
+    <value key="unit">degC</value>
+    <value key="quantity">TEMPERATURE</value>
+  </parameter>
+  <parameter key="RampTemperatureRate">
+    <value key="name">RampTemperatureRate</value>
+    <value key="value">NaN</value>
+    <value key="stddev">-1</value>
+    <value key="unit">degC*min^-1</value>
+    <value key="quantity">TEMPERATURE_RATE</value>
+  </parameter>
+  <parameter key="DateTime">
+    <value key="name">DateTime</value>
+    <value key="value">447671803.91533577</value>
+    <value key="stddev">-1</value>
+    <value key="unit">s</value>
+    <value key="quantity">TIME</value>
+  </parameter>
+  <parameter key="CounterSlitLength" type="rc" index="6">
+    <value key="name">CounterSlitLength</value>
+    <value key="value">1.0546731065723409</value>
+    <value key="stddev">-1</value>
+    <value key="unit">n_m^-1</value>
+    <value key="quantity">SCATTERING_VECTOR</value>
+  </parameter>
+  <parameter key="InternalScalingFactor" type="rc" index="3">
+    <value key="name">InternalScalingFactor</value>
+    <value key="value">3425.9594180023942</value>
+    <value key="stddev">-1</value>
+    <value key="unit">none</value>
+    <value key="quantity">NONE</value>
+  </parameter>
+  <parameter key="WaterZeroIntensity">
+    <value key="name">WaterZeroIntensity</value>
+    <value key="value">0.01641</value>
+    <value key="stddev">-1</value>
+    <value key="unit">c_m^-1</value>
+    <value key="quantity">SCATTERING_INTENSITY</value>
+  </parameter>
+  <parameter key="Concentration" type="rc" index="0">
+    <value key="name">Concentration</value>
+    <value key="value">0</value>
+    <value key="stddev">-1</value>
+    <value key="unit">g*l^-1</value>
+    <value key="quantity">CONCENTRATION_MASS</value>
+  </parameter>
+  <parameter key="GammaRatio" type="rc" index="2">
+    <value key="name">GammaRatio</value>
+    <value key="value">0</value>
+    <value key="stddev">-1</value>
+    <value key="unit">none</value>
+    <value key="quantity">NONE</value>
+  </parameter>
+  <parameter key="Absorption">
+    <value key="name">Absorption</value>
+    <value key="value">1</value>
+    <value key="stddev">-1</value>
+    <value key="unit">u_m^-2</value>
+    <value key="quantity">COUNTS_PER_AREA</value>
+  </parameter>
+  <parameter key="maximum">
+    <value key="name">maximum</value>
+    <value key="value">0.0002918890383655155</value>
+    <value key="stddev">3.2483882733172751E-06</value>
+    <value key="unit">u_m^-2</value>
+    <value key="quantity">COUNTS_PER_AREA</value>
+  </parameter>
+  <setup>
+    <group isdevice="false" category="exp" sub="sample" key="exp:sample:Default" id="exp:sample:Default">
+      <value key="ParameterCount" counts="ParameterKey|ParameterName|ParameterValue" type="Int32">0</value>
+      <value key="ParameterKey" index="-1" type="String">Parameter#{0}</value>
+      <value key="ParameterName" index="-1" type="String">Parameter#{0}</value>
+      <value key="ParameterValue" index="-1" tol="-1" unit="none" quantity="NONE" type="Double">NaN</value>
+      <value key="SampleType" type="Int32" db="DP">1</value>
+      <value key="Temperature" type="Double" unit="degC" quantity="TEMPERATURE" min="-273.15" tol="0.1" db="DP">24.9</value>
+    </group>
+    <group isdevice="false" category="exp" sub="file" key="exp:file:Default" id="exp:file:Default">
+      <value key="Filename" type="String" max="50" db="DP">CholPal 0-9_25_20230310</value>
+      <value key="Directory" type="String" max="100" db="DP">C:\Users\SAXSess\Documents\Selina\2023-03-10</value>
+      <value key="FullPath" type="String" max="150">C:\Users\SAXSess\Documents\Huy und Ruba\20230307\CholPal 0-9_25_20230307.pdh</value>
+      <value key="Description" type="String" max="250" db="DP"></value>
+      <value key="WaitTime" type="Double" unit="s" quantity="TIME" min="0" db="DP">0</value>
+      <value key="HasStdDev" type="Boolean" db="DP">true</value>
+      <value key="DateTime" type="DateTime" db="P">2023-03-10T09:16:43.9153358Z</value>
+      <value key="User" type="String" max="50" db="DP">{DefaultUser}</value>
+    </group>
+    <group isdevice="false" category="exp" sub="vari" key="exp:vari:Default" id="exp:vari:Default">
+      <value key="VariationCount" counts="Parameter|Count|Start|Increment|Positions|Prefix|Digits|NamingOption" type="Int32">0</value>
+      <value key="Parameter" index="-1" type="String" max="50" db="D"></value>
+      <value key="Count" index="-1" type="Int32" db="D">0</value>
+      <value key="Start" index="-1" type="Double" db="D">NaN</value>
+      <value key="Increment" index="-1" type="Double" db="D">NaN</value>
+      <value key="Prefix" index="-1" type="String" max="5" db="D"></value>
+      <value key="Positions" index="-1" type="String" max="1024" db="D"></value>
+      <value key="Digits" index="-1" type="Int32" db="D">0</value>
+      <value key="NamingOption" index="-1" type="Int32" db="D">0</value>
+    </group>
+    <group key="GE_ID3003" isdevice="true" category="generator" sub="" id="generator::GE_ID3003#0" isactive="true">
+      <value key="Name" type="String" max="50" db="P">ID3003</value>
+      <value key="Voltage" type="Double" unit="k_V" quantity="VOLTAGE" db="P">40</value>
+      <value key="Current" type="Double" unit="m_A" quantity="ELECTRIC_CURRENT" db="P">40</value>
+      <value key="VoltageSet" type="Double" unit="k_V" quantity="VOLTAGE" min="20" max="40">40</value>
+      <value key="CurrentSet" type="Double" unit="m_A" quantity="ELECTRIC_CURRENT" min="10" max="50">40</value>
+      <value key="PerformPowerUp" type="Boolean">true</value>
+      <value key="PerformStandby" type="Boolean">false</value>
+      <value key="Wavelength" type="Double" unit="n_m" quantity="LENGTH" min="0" db="P">0.1542</value>
+      <value key="ShutterUsedForBatch" type="Int32">0</value>
+      <value key="ShutterCount" counts="Camera|ShutterIsOpen|ShutterTime|IsTimerRunning" type="Int32">4</value>
+      <value key="Camera" index="0" link="child" list="camera" type="String">camera::AP_SAXSess#0</value>
+      <value key="ShutterIsOpen" index="0" type="Boolean">false</value>
+      <value key="ShutterTime" index="0" type="Double" unit="s" quantity="TIME" min="0.1">INF</value>
+      <value key="AfterAcquisition" type="Int32" db="DP">0</value>
+      <value key="IsTimerRunning" index="0" type="Boolean">false</value>
+      <value key="InfoTimerTick" type="Double" unit="s" quantity="TIME" min="1" max="60">1</value>
+      <value key="IsOnline" type="Boolean">true</value>
+      <value key="IsReady" type="Boolean">true</value>
+      <value key="IsMeasurement" type="Boolean">true</value>
+      <value key="Model" type="String" max="50">ID3003</value>
+      <value key="Company" type="String">General Electric</value>
+      <value key="Engine">AntonPaar.SAXSquant.Exp.SeifertDebyeflexGeneratorEngine,saxsquant.experiment</value>
+      <value key="PerformPowerDown" type="Boolean">false</value>
+      <value key="Connection" list="Simulator|COM" type="String">COM</value>
+      <value key="PortCOM" type="Int32">1</value>
+      <value key="PortTCP" type="Int32">1030</value>
+      <value key="TcpType" type="String">Short</value>
+      <value key="StandbyCurrent" type="Double" unit="m_A" quantity="ELECTRIC_CURRENT">10</value>
+      <value key="StandbyVoltage" type="Double" unit="k_V" quantity="VOLTAGE">20</value>
+      <value key="HostName" type="String"></value>
+      <value key="Camera" index="1" link="child" list="camera" type="String">None</value>
+      <value key="ShutterIsOpen" index="1" type="Boolean">false</value>
+      <value key="ShutterTime" index="1" type="Double" unit="s" quantity="TIME" min="0.1">INF</value>
+      <value key="IsTimerRunning" index="1" type="Boolean">false</value>
+      <value key="Camera" index="2" link="child" list="camera" type="String">None</value>
+      <value key="ShutterIsOpen" index="2" type="Boolean">true</value>
+      <value key="ShutterTime" index="2" type="Double" unit="s" quantity="TIME" min="0.1">INF</value>
+      <value key="IsTimerRunning" index="2" type="Boolean">false</value>
+      <value key="Camera" index="3" link="child" list="camera" type="String">None</value>
+      <value key="ShutterIsOpen" index="3" type="Boolean">false</value>
+      <value key="ShutterTime" index="3" type="Double" unit="s" quantity="TIME" min="0.1">INF</value>
+      <value key="IsTimerRunning" index="3" type="Boolean">false</value>
+    </group>
+    <group key="AP_TCS120" isdevice="true" category="holder" sub="" id="holder::AP_TCS120#0">
+      <value key="Name" type="String" max="50" db="P">TCS 120</value>
+      <value key="SampleDetectorIncrement" type="Double" unit="m_m" quantity="DISTANCE" db="P">0</value>
+      <value key="SecuCount" counts="|Secu" type="Int32">1</value>
+      <value key="CellType" list="cell" type="Int32" db="DP">1</value>
+      <value key="CellTag" type="String" max="20" db="DP"></value>
+      <value key="Camera" link="parent" type="String">camera::AP_SAXSess#0</value>
+      <value key="Model" type="String" max="50">TCS 120</value>
+      <value key="Secu" index="0" link="child" list="AP_TCU50|AP_TCU51" type="String">secu:temp:AP_TCU51#0</value>
+      <value key="Sampler" link="child" type="String">None</value>
+      <value key="Connection" type="String">None</value>
+      <value key="HostName" type="String"></value>
+    </group>
+    <group key="AP_TCU51" isdevice="true" category="secu" sub="temp" id="secu:temp:AP_TCU51#0">
+      <value key="Name" type="String" max="50" db="P">TCS Control Unit</value>
+      <value key="UseTemperature" type="Boolean" db="DP">true</value>
+      <value key="TemperatureMaximum" type="Double" unit="degC" quantity="TEMPERATURE" db="P">120</value>
+      <value key="TemperatureMinimum" type="Double" unit="degC" quantity="TEMPERATURE" db="P">-30</value>
+      <value key="TemperatureSet" type="Double" unit="degC" quantity="TEMPERATURE" min="-273.15" tol="0.1" db="DP">24.9</value>
+      <value key="Temperature" type="Double" unit="degC" quantity="TEMPERATURE" min="-273.15" tol="0.1" db="P">24.9</value>
+      <value key="WaitForTemp" type="Boolean" db="DP">true</value>
+      <value key="InfoTimerTick" type="Double" unit="s" quantity="TIME" min="1" max="60">1</value>
+      <value key="UseRamp" type="Boolean" db="DP">false</value>
+      <value key="RampStart" type="Double" unit="degC" quantity="TEMPERATURE" min="-273.15" tol="0.1" db="DP">NaN</value>
+      <value key="RampEnd" type="Double" unit="degC" quantity="TEMPERATURE" min="-273.15" tol="0.1" db="DP">NaN</value>
+      <value key="RampTime" type="Double" unit="min" quantity="TIME" min="1" tol="0.1" db="DP">NaN</value>
+      <value key="RampRate" type="Double" unit="degC*min^-1" quantity="TEMPERATURE_RATE" tol="0.1" db="DP">NaN</value>
+      <value key="RampTick" type="Double" unit="s" quantity="TIME">10</value>
+      <value key="UseCalibration" type="Boolean" db="P">true</value>
+      <value key="CellType" list="cell" type="Int32">1</value>
+      <value key="CalibrationConstant0" type="Double" db="P">1.8</value>
+      <value key="CalibrationConstant1" type="Double" db="P">-0.067</value>
+      <value key="SaveCalibration" type="Boolean">false</value>
+      <value key="Holder" link="parent" type="String">holder::AP_TCS120#0</value>
+      <value key="IsMeasurement" type="Boolean">true</value>
+      <value key="IsOnline" type="Boolean">true</value>
+      <value key="IsReady" type="Boolean">true</value>
+      <list key="CalibrationConstants0">
+        <value index="0">0</value>
+        <value index="1">1.8</value>
+        <value index="2">0</value>
+        <value index="3">0</value>
+        <value index="4">0</value>
+        <value index="5">0</value>
+        <value index="6">0</value>
+        <value index="7">0</value>
+        <value index="8">0</value>
+      </list>
+      <list key="CalibrationConstants1">
+        <value index="0">0</value>
+        <value index="1">-0.067</value>
+        <value index="2">0</value>
+        <value index="3">0</value>
+        <value index="4">0</value>
+        <value index="5">0</value>
+        <value index="6">0</value>
+        <value index="7">0</value>
+        <value index="8">0</value>
+      </list>
+      <value key="Model" type="String" max="50">TCS Control Unit</value>
+      <value key="Company" type="String">Anton Paar</value>
+      <value key="Engine">AntonPaar.SAXSquant.Exp.ApTCU51Engine,saxsquant.experiment</value>
+      <value key="Connection" list="Simulator|COM" type="String">COM</value>
+      <value key="PortCOM" type="Int32">2</value>
+      <value key="PortTCP" type="Int32">1026</value>
+      <value key="TcpType" type="String">Short</value>
+      <value key="HostName" type="String"></value>
+    </group>
+    <group key="AP_TCS300" isdevice="true" category="holder" sub="" id="holder::AP_TCS300#0">
+      <value key="Name" type="String" max="50" db="P">TCS 300</value>
+      <value key="SampleDetectorIncrement" type="Double" unit="m_m" quantity="DISTANCE" db="P">0</value>
+      <value key="SecuCount" counts="|Secu" type="Int32">1</value>
+      <value key="CellType" list="cell" type="Int32" db="DP">1</value>
+      <value key="CellTag" type="String" max="20" db="DP"></value>
+      <value key="Camera" link="parent" type="String">None</value>
+      <value key="Model" type="String" max="50">TCS 300</value>
+      <value key="Secu" index="0" link="child" list="AP_TCU50|AP_TCU51" type="String">secu:temp:AP_TCU51#1</value>
+      <value key="Sampler" link="child" type="String">None</value>
+      <value key="Connection" type="String">None</value>
+      <value key="HostName" type="String"></value>
+    </group>
+    <group key="AP_TCU51" isdevice="true" category="secu" sub="temp" id="secu:temp:AP_TCU51#1">
+      <value key="Name" type="String" max="50" db="P">TCS Control Unit(2)</value>
+      <value key="UseTemperature" type="Boolean" db="DP">false</value>
+      <value key="TemperatureMaximum" type="Double" unit="degC" quantity="TEMPERATURE" db="P">120</value>
+      <value key="TemperatureMinimum" type="Double" unit="degC" quantity="TEMPERATURE" db="P">-30</value>
+      <value key="TemperatureSet" type="Double" unit="degC" quantity="TEMPERATURE" min="-273.15" tol="0.1" db="DP">NaN</value>
+      <value key="Temperature" type="Double" unit="degC" quantity="TEMPERATURE" min="-273.15" tol="0.1" db="P"></value>
+      <value key="WaitForTemp" type="Boolean" db="DP">true</value>
+      <value key="InfoTimerTick" type="Double" unit="s" quantity="TIME" min="1" max="60">1</value>
+      <value key="UseRamp" type="Boolean" db="DP">false</value>
+      <value key="RampStart" type="Double" unit="degC" quantity="TEMPERATURE" min="-273.15" tol="0.1" db="DP">NaN</value>
+      <value key="RampEnd" type="Double" unit="degC" quantity="TEMPERATURE" min="-273.15" tol="0.1" db="DP">NaN</value>
+      <value key="RampTime" type="Double" unit="min" quantity="TIME" min="1" tol="0.1" db="DP">NaN</value>
+      <value key="RampRate" type="Double" unit="degC*min^-1" quantity="TEMPERATURE_RATE" tol="0.1" db="DP">NaN</value>
+      <value key="RampTick" type="Double" unit="s" quantity="TIME">10</value>
+      <value key="UseCalibration" type="Boolean" db="P">false</value>
+      <value key="CellType" list="cell" type="Int32">0</value>
+      <value key="CalibrationConstant0" type="Double" db="P">0</value>
+      <value key="CalibrationConstant1" type="Double" db="P">0</value>
+      <value key="SaveCalibration" type="Boolean">false</value>
+      <value key="Holder" link="parent" type="String">holder::AP_TCS300#0</value>
+      <value key="IsMeasurement" type="Boolean">false</value>
+      <value key="IsOnline" type="Boolean">false</value>
+      <value key="IsReady" type="Boolean">true</value>
+      <list key="CalibrationConstants0">
+        <value index="0">0</value>
+        <value index="1">1.8</value>
+        <value index="2">0</value>
+        <value index="3">0</value>
+        <value index="4">0</value>
+        <value index="5">0</value>
+        <value index="6">0</value>
+        <value index="7">0</value>
+        <value index="8">0</value>
+      </list>
+      <list key="CalibrationConstants1">
+        <value index="0">0</value>
+        <value index="1">-0.067</value>
+        <value index="2">0</value>
+        <value index="3">0</value>
+        <value index="4">0</value>
+        <value index="5">0</value>
+        <value index="6">0</value>
+        <value index="7">0</value>
+        <value index="8">0</value>
+      </list>
+      <value key="Model" type="String" max="50">TCS Control Unit</value>
+      <value key="Company" type="String">Anton Paar</value>
+      <value key="Engine">AntonPaar.SAXSquant.Exp.ApTCU51Engine,saxsquant.experiment</value>
+      <value key="Connection" list="Simulator|COM" type="String">COM</value>
+      <value key="PortCOM" type="Int32">2</value>
+      <value key="PortTCP" type="Int32">1026</value>
+      <value key="TcpType" type="String">Short</value>
+      <value key="HostName" type="String"></value>
+    </group>
+    <group key="AP_SAXSess" isdevice="true" category="camera" sub="" id="camera::AP_SAXSess#0">
+      <value key="Name" type="String" max="50" db="P">SAXSess</value>
+      <value key="Collimation" type="Int32" db="P">1</value>
+      <value key="BraggScrew" type="Double" unit="u_m" quantity="LENGTH" db="P">4.5</value>
+      <value key="CameraTiltLeft" type="Double" unit="u_m" quantity="LENGTH" db="P">5</value>
+      <value key="CameraTiltRight" type="Double" unit="u_m" quantity="LENGTH" db="P">5</value>
+      <value key="BeamStopHeight" type="Double" unit="u_m" quantity="LENGTH" db="P">5</value>
+      <value key="BeamStopTiltCoarse" type="Double" unit="u_m" quantity="LENGTH" db="P">5</value>
+      <value key="BeamStopTiltFine" type="Double" unit="u_m" quantity="LENGTH" db="P">5</value>
+      <value key="AlignmentDate" type="DateTime" db="P"></value>
+      <value key="AlignmentUser" type="String" max="50" db="P">{DefaultUser}</value>
+      <value key="SampleDetectorNominal" type="Double" unit="m_m" quantity="DISTANCE" db="P">261.2</value>
+      <value key="ShutterIndex" type="Int32">0</value>
+      <value key="Generator" link="parent" type="String">generator::GE_ID3003#0</value>
+      <value key="DetectorPositionCount" counts="|Detector" type="Int32" db="DP">1</value>
+      <value key="Detector" index="0" link="child" list="detector" type="String">detector:ccd:Dectris_Mythen1K#0</value>
+      <value key="Holder" link="child" list="holder" type="String">holder::AP_TCS120#0</value>
+      <value key="Model" type="String" max="50">SAXSess</value>
+      <value key="Company" type="String">Anton Paar</value>
+      <value key="Connection" type="String">None</value>
+      <value key="HostName" type="String"></value>
+    </group>
+    <group key="Dectris_Mythen1K" isdevice="true" category="detector" sub="ccd" id="detector:ccd:Dectris_Mythen1K#0">
+      <value key="Name" type="String" max="50" db="P">1D diode array</value>
+      <value key="UseDetector" type="Boolean" db="DP">true</value>
+      <value key="PositionIndex" type="Int32" db="DP">0</value>
+      <value key="WaxsPosition" type="Int32" db="P">0</value>
+      <value key="Inclination" type="Double" unit="deg" quantity="NONE" min="0" max="180" db="P">90</value>
+      <value key="ImageWidth" type="Int32" unit="" db="P">1</value>
+      <value key="ImageHeight" type="Int32" unit="" db="P">1280</value>
+      <value key="PixelSizeX" type="Double" unit="u_m" quantity="LENGTH" db="P">8000</value>
+      <value key="PixelSizeY" type="Double" unit="u_m" quantity="LENGTH" db="P">50</value>
+      <value key="ResolutionX" type="String" unit="c_m^-1" quantity="INVERSE_LENGTH">[10/8]</value>
+      <value key="ResolutionY" type="String" unit="c_m^-1" quantity="INVERSE_LENGTH">[10/8]</value>
+      <value key="SampleDetector" type="Double" unit="m_m" quantity="DISTANCE" min="0" db="P">309</value>
+      <value key="DetectorRadius" type="Double" unit="m_m" quantity="DISTANCE" min="0" db="P">-1</value>
+      <value key="Dimension" type="Int32" db="DP">1</value>
+      <value key="DetectionWidth" type="Double" unit="m_m" quantity="DISTANCE" min="0" max="50" db="DP">10</value>
+      <value key="Exposure" type="Double" unit="s" quantity="TIME" min="0" tol="0.1" db="DP">10</value>
+      <value key="Averages" type="Int32" min="0" db="DP">60</value>
+      <value key="Has2D" type="Boolean" db="P">false</value>
+      <value key="HasIntensifierGain" type="Boolean" db="P">false</value>
+      <value key="UseIntensifierGain" type="Boolean" db="P">false</value>
+      <value key="IntensifierGain" type="Double" db="P" min="0" max="100">100</value>
+      <value key="HasTemperature" type="Boolean" db="P">false</value>
+      <value key="Temperature" type="Double" unit="degC" quantity="TEMPERATURE" db="P">NaN</value>
+      <value key="TemperatureIsLocked" type="Boolean" db="P">true</value>
+      <value key="Camera" link="parent" type="String">camera::AP_SAXSess#0</value>
+      <value key="PerformAcquisition" type="Boolean">true</value>
+      <value key="PerformDataProcessing" type="Boolean">false</value>
+      <value key="PerformAveraging" type="Boolean">true</value>
+      <value key="HasStdDev" type="Boolean" db="DP">true</value>
+      <value key="UseDespike" type="Boolean" db="DP">true</value>
+      <value key="UseDespikeOnline" type="Boolean" db="P">false</value>
+      <value key="Filename" type="String" max="50">CholPal 0-9_25_20230307</value>
+      <value key="Directory" type="String" max="100">C:\Users\SAXSess\Documents\Huy und Ruba\20230307</value>
+      <value key="Overwrite" type="Boolean">false</value>
+      <value key="OverwriteEvaluation" type="Boolean">false</value>
+      <value key="ZeroAngle" type="Double" unit="none" quantity="NONE" db="P">142</value>
+      <value key="ZeroAngleUse" type="Int32" db="P">0</value>
+      <value key="ZeroAngleMin" type="Int32" db="P">0</value>
+      <value key="ZeroAngleMax" type="Int32" db="P">200</value>
+      <value key="ZeroAngleQu" type="Double">0</value>
+      <value key="ZeroAngleIsSetManually" type="Boolean">true</value>
+      <value key="XStart" type="Int32">1</value>
+      <value key="XEnd" type="Int32">1280</value>
+      <value key="XGroup" type="Int32">1</value>
+      <value key="YStart" type="Int32">1</value>
+      <value key="YEnd" type="Int32">1</value>
+      <value key="YGroup" type="Int32">1</value>
+      <value key="Frame" type="Int32">60</value>
+      <value key="Frames" type="Int32">0</value>
+      <value key="Mode" type="Int32">0</value>
+      <value key="InputFilename" type="String" max="50"></value>
+      <value key="IsReady" type="Boolean">false</value>
+      <value key="IsMeasurement" type="Boolean">true</value>
+      <value key="IsOnline" type="Boolean">true</value>
+      <value key="Model" type="String" max="50">1D diode array</value>
+      <value key="Company" type="String">Dectris</value>
+      <value key="Engine">AntonPaar.SAXSquant.Exp.MythenDetectorEngine,saxsquant.experiment</value>
+      <value key="Connection" list="Simulator|TCP" type="String">TCP</value>
+      <value key="IP" type="String">192.168.100.20</value>
+      <value key="PortTCP" type="Int32">1030</value>
+      <value key="TcpType" type="String">Long</value>
+      <list key="SampleDetectorIncrements">
+        <value positionindex="0" waxsindex="0" meaning="SAXS">45.6</value>
+        <value positionindex="1" waxsindex="0" meaning="WAXS1">-15.06</value>
+        <value positionindex="1" waxsindex="1" meaning="WAXS2">-31.84</value>
+      </list>
+      <value key="HostName" type="String"></value>
+      <list key="PossibleHardwareBinnings">
+        <value X="1" Y="1" />
+      </list>
+      <value X="1" Y="1" key="HardwareBinning" />
+    </group>
+  </setup>
+</fileinfo>

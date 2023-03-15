@@ -1,13 +1,27 @@
 from .root import Root
 from .author import Author
-from .parameter import Parameter
-from .listofelements import ListOfElements
+from .analysis import Analysis
+from .metadata import Metadata
+from .ir import IR
+from .xrd import XRD
+from .gc import GC
+from .nmr import NMR
+from .experimentaldata import ExperimentalData
+from .ymatrix import YMatrix
+from .units import Units
 
 __doc__ = ""
 
 __all__ = [
     "Root",
     "Author",
-    "Parameter",
-    "ListOfElements",
+    "Analysis",
+    "Metadata",
+    "IR",
+    "XRD",
+    "GC",
+    "NMR",
+    "ExperimentalData",
+    "YMatrix",
+    "Units",
 ]

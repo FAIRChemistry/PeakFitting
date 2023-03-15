@@ -6,8 +6,8 @@ from sdRDM.base.listplus import ListPlus
 from sdRDM.base.utils import forge_signature, IDGenerator
 
 
-from .parameter import Parameter
 from .author import Author
+from .analysis import Analysis
 
 
 @forge_signature
@@ -24,20 +24,17 @@ class Root(sdRDM.DataModel):
     description: Optional[str] = Field(
         default=None,
         description="Describes the content of the dataset.",
-        dataverse="pyDaRUS.Citation.description.text",
     )
 
     title: Optional[str] = Field(
         default=None,
         description="Title of the work",
-        dataverse="pyDaRUS.Citation.title",
     )
 
     subject: List[str] = Field(
         description="Subject of matter linked to the dataset",
         default_factory=ListPlus,
         multiple=True,
-        dataverse="pyDaRUS.Citation.subject",
     )
 
     authors: List[Author] = Field(
@@ -46,10 +43,9 @@ class Root(sdRDM.DataModel):
         description="Authors of this dataset.",
     )
 
-    parameters: List[Parameter] = Field(
-        default_factory=ListPlus,
-        multiple=True,
-        description="Parameters to start and configure some process",
+    analysis: Optional[Analysis] = Field(
+        default=None,
+        description="analysis part of this dataset.",
     )
 
     def add_author_to_authors(
@@ -76,28 +72,3 @@ class Root(sdRDM.DataModel):
             params["id"] = id
 
         self.authors.append(Author(**params))
-
-    def add_parameter_to_parameters(
-        self,
-        key: Optional[str] = None,
-        value: Optional[float] = None,
-        id: Optional[str] = None,
-    ) -> None:
-        """
-        This method adds an object of type 'Parameter' to attribute parameters
-
-        Args:
-            id (str): Unique identifier of the 'Parameter' object. Defaults to 'None'.
-            key (): Name of the parameter. Defaults to None
-            value (): Respective value of a parameter. Defaults to None
-        """
-
-        params = {
-            "key": key,
-            "value": value,
-        }
-
-        if id is not None:
-            params["id"] = id
-
-        self.parameters.append(Parameter(**params))

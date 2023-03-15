@@ -25,5 +25,4 @@ class Author(sdRDM.DataModel):
     affiliation: Optional[str] = Field(
         default=None,
         description="To which organization the author is affiliated to",
-        dataverse="pyDaRUS.Citation.author.affiliation",
     )
